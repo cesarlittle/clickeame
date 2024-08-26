@@ -1,8 +1,7 @@
 body {
+    background: linear-gradient(135deg, rgb(32, 32, 32) 20%, rgb(0, 2, 70));
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(32, 32, 32);
 }
-
 /*///HEADER CSS///////////////////////////////////////////////////////////////////*/
 #fondodeheader {
     display: flex;
@@ -98,7 +97,7 @@ a.activo{
 
 /*///CONTENIDO DE CAJA DERECHA///////////////////////////*/
 #contenido {
-    background: linear-gradient(135deg, rgb(32, 32, 32) 20%, rgb(0, 2, 70));
+    /*background: linear-gradient(135deg, rgb(32, 32, 32) 20%, rgb(0, 2, 70));*/
     padding: 15px;
     color: white;
 }
@@ -129,7 +128,7 @@ h3 {
 #nueva-seccion {
     /*background: linear-gradient(135deg, #0044cc, #88ccff); /* Fondo degradado */
     /*background: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgb(32, 32, 32));*/
-    background-color: black;
+    /*background-color: black;*/
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -144,6 +143,24 @@ h3 {
 #nueva-seccion p {
     font-size: 18px;
 }
+/*NUEVA SECCION2//////////////////////////////////*/
+#nueva-seccion2 {
+    /*background: linear-gradient(135deg, rgb(32, 32, 32) 20%, rgb(0, 2, 70));
+    /*background: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgb(32, 32, 32));*/
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#nueva-seccion2 h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#nueva-seccion2 p {
+    font-size: 18px;
+}
 
 /*///FOOTER PRINCIPAL///////////////////////////*/
 #pieprincipal {
@@ -152,3 +169,13 @@ h3 {
     text-align: center;
     padding: 10px 0; /* Añadir padding en lugar de márgenes para el espaciado */
 }
+/*.efecto-vidrio////////////////////////////////////
+ {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+}*/
