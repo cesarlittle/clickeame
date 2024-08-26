@@ -102,11 +102,6 @@ a.activo{
     color: white;
 }
 /* Configurar el cuerpo y la altura mínima //////////////*/
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -133,35 +128,16 @@ h3 {
     padding: 50px 20px;
     text-align: center;
 }
-
-#nueva-seccion h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    
-}
-
 #nueva-seccion p {
     font-size: 18px;
 }
 /*NUEVA SECCION2//////////////////////////////////*/
 #nueva-seccion2 {
-    /*background: linear-gradient(135deg, rgb(32, 32, 32) 20%, rgb(0, 2, 70));
-    /*background: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgb(32, 32, 32));*/
     color: white;
     padding: 50px 20px;
     text-align: center;
+    font-size: 13px;
 }
-
-#nueva-seccion2 h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    
-}
-
-#nueva-seccion2 p {
-    font-size: 18px;
-}
-
 /*///FOOTER PRINCIPAL///////////////////////////*/
 #pieprincipal {
     background-color: rgb(22, 22, 22);
@@ -179,3 +155,63 @@ h3 {
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 40px;
 }*/
+.left{
+height: 500px;
+width: 600px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin-top: 40px;
+}
+.right{
+height: 500px;
+width: 600px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin-top: 40px;
+}
+.flexbox1{
+    display: flex;
+    gap: 80px;
+    justify-content: center
+}
+.parrafoLeft{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    text-align: justify;
+}
+.tituloLeft{
+    padding: 10px;
+    font-size: 28px;
+}
+.imgLeft{
+    border-radius: 10px;
+}
+.topImgFlexLeft{
+    margin-top: 40px;
+}
+.parrafoRight{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    text-align: justify;
+}
+.tituloRight{
+    padding: 10px;
+    font-size: 28px;
+}
+.imgRight{
+    border-radius: 10px;
+}
+.topImgFlexRight{
+    margin-top: 40px;
+}
+.tituloServicios{
+    font-size: 25px;
+}
