@@ -107,7 +107,9 @@ a.activo{
     flex-direction: column;
     min-height: 100vh;
 }
-
+.tituloEmpresa{
+    margin-top: 80px;
+}
 main {
     flex: 1;
 }
@@ -127,6 +129,7 @@ h3 {
     color: white;
     padding: 50px 20px;
     text-align: center;
+    margin-top: 120px;
 }
 #nueva-seccion p {
     font-size: 18px;
