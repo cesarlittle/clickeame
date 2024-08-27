@@ -14,7 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-/* Ajuste del margen del h1 */
+/* Ajuste del margen del h1 del logo*/
 h1  {
     margin: 0; /* Elimina el margen superior e inferior */
     padding: 0; /* Opcional: elimina el padding si hay */
@@ -121,16 +121,24 @@ h3 {
     text-align: center;
     font-size: 50px;
 }
+.textoPrincipal{
+    margin-bottom: 120px;
+}
 /*NUEVA SECCION//////////////////////////////////*/
 #nueva-seccion {
-    /*background: linear-gradient(135deg, #0044cc, #88ccff); /* Fondo degradado */
-    /*background: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgb(32, 32, 32));*/
-    /*background-color: black;*/
     color: white;
     padding: 1px 50px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 100px;
     background-color: rgb(22, 22, 22);
+}
+.subtituloDivisor{
+    font-weight:400;
+    margin-bottom: 0;
+    
+}
+.divisor1{
+    margin-top: 2px;
 }
 #nueva-seccion p {
     font-size: 18px;
