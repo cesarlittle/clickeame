@@ -1,6 +1,7 @@
 
 body {
-    background: linear-gradient(135deg, rgb(60 97 128) 20%, rgb(0, 2, 70));
+    /*background: linear-gradient(135deg, rgb(60 97 128) 20%, rgb(0, 2, 70));*/
+    background: linear-gradient(135deg, rgb(30 70 103) 20%, rgb(0, 2, 70));
     font-family: 'Poppins', sans-serif;
 }
 /*///HEADER CSS///////////////////////////////////////////////////////////////////*/
@@ -8,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(32, 32, 32);
+    /*background-color: rgb(32, 32, 32);*/
     color: rgb(255, 255, 255);
     margin: 1px auto;
     padding: 0 20px;
@@ -25,7 +26,7 @@ h1  {
 }
 /*///MENU PRINCIPAL/////////////////////////////////////////////////////////////*/
 nav {
-    background-color: rgb(32, 32, 32);
+    /*background-color: rgb(32, 32, 32);*/
     margin: 0;
     font-family: 'Poppins', sans-serif;
     padding: 2px 0; /* Reducir aún más el padding para hacer la barra más fina */
@@ -41,7 +42,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 60px; /* Espaciado entre los elementos del menú */
+    margin-right: 20px; /* Espaciado entre los elementos del menú */
 }
 
 nav ul li:last-child {
@@ -107,25 +108,21 @@ a.activo{
 main {
     flex: 1;
 }
-h2 {
-    text-align: center;
-}
-
 h3 {
     text-align: center;
     font-size: 50px;
 }
 .textoPrincipal{
     margin-bottom: 120px;
+    margin-top: 160px;
 }
 /*NUEVA SECCION//////////////////////////////////*/
 #nueva-seccion {
-    color: white;
+    color: rgb(32, 32, 32);
     padding: 1px 50px;
     text-align: center;
-    margin-top: 10
-    0px;
-    background-color: rgb(32, 32, 32);
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
     border-radius: 10PX;
 }
 .subtituloDivisor{
@@ -224,15 +221,25 @@ margin-top: 40px;
     margin-top: 30px;
 }
 .tituloServicios{
-    font-size: 22px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 75px;
+    color: white;
 }
 /*NOSOTROS/////////////////////////////////*/
 .Nosotros{
-    color: white;
-    padding: 1px 50px;
+    color: rgb(32, 32, 32);
+    padding: 20px 20px;
     text-align: center;
     margin-top: 100px;
-    background-color: rgb(32, 32, 32);
+    background-color: white;
     border-radius: 10PX;
     
+}
+.Nosotrosh2{
+    text-align: center;
+    margin-top: 75px;
+}
+.somos{
+    text-align: center;
 }
