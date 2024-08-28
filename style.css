@@ -249,5 +249,28 @@ margin-top: 40px;
 .divflex {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 75%;
+    margin: 0 auto;
   }
+.column {
+    width: 100%;
+    max-width: 30%;
+}
+
+.caja2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    margin-bottom: 10px;
+}
+.img2{
+    margin-top: 10px;
+}
+.mesa1{
+    border-radius: 10px;
+}
