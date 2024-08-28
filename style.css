@@ -125,7 +125,7 @@ h3 {
     text-align: center;
     margin-top: 10
     0px;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(32, 32, 32);
     border-radius: 10PX;
 }
 .subtituloDivisor{
@@ -225,4 +225,14 @@ margin-top: 40px;
 }
 .tituloServicios{
     font-size: 22px;
+}
+/*NOSOTROS/////////////////////////////////*/
+.Nosotros{
+    color: white;
+    padding: 1px 50px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10PX;
+    text-align: justify;
 }
