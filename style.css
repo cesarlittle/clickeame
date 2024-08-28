@@ -227,7 +227,7 @@ margin-top: 40px;
     color: white;
 }
 /*NOSOTROS/////////////////////////////////*/
-.Nosotros{
+.portfolio{
     color: rgb(32, 32, 32);
     padding: 20px 20px;
     text-align: center;
@@ -236,10 +236,13 @@ margin-top: 40px;
     border-radius: 10PX;
     
 }
-.Nosotrosh2{
+.portfolioh2{
     text-align: center;
     margin-top: 75px;
 }
 .somos{
+    font-size: 30px;
     text-align: center;
+    margin-top: 75px;
+    color: white;
 }
