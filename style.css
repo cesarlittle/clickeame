@@ -243,7 +243,7 @@ margin-top: 40px;
     font-size: 30px;
     text-align: center;
     margin-top: 75px;
-    color: white;
+    color: rgb(32, 32,032);
     margin-bottom: 50px;
 }
 .divflex {
@@ -272,7 +272,17 @@ margin-top: 40px;
     margin-top: 10px;
 }
 .mesa1{
-    border-radius: 10px;
     display: block;
     width: 100%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+#portfolio{
+    background-color: whitesmoke;
+}
+.somos1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 75px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
