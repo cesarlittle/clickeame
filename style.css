@@ -248,7 +248,7 @@ margin-top: 40px;
 }
 .divflex {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     justify-content:space-between;
     width: 100%;
     align-items: center;
