@@ -286,3 +286,51 @@ margin-top: 40px;
     color: rgb(255, 255, 255);
     margin-bottom: 50px;
 }
+/*hover*/
+.imagen-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.imagen-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.imagen-container:hover img {
+    transform: scale(1.1); /* Zoom */
+    filter: brightness(50%); /* Oscurece la imagen */
+}
+
+.imagen-container .imagen-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.imagen-container:hover .imagen-texto {
+    opacity: 1;
+}
+/*animaciones fade in*/
+/* Clase para ocultar elementos antes de la animación 
+.fade-in-hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Clase para iniciar la animación 
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+*/
+
