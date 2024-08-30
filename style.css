@@ -59,7 +59,7 @@ nav ul li:last-child {
 
 /* Estilo de enlaces normales */
 a {
-    color: rgb(15, 15, 15);
+    color: rgb(0, 0, 0);
     position: relative;
     text-decoration: none;
     font-size: 15px; /* Tamaño del texto del enlace */
@@ -87,7 +87,7 @@ a.activo:hover span::after{
     width: 100%;
 }
 a:hover {
-    color: white;
+    color: rgb(28,145,255);
 }
 
 a.activo span {
