@@ -10,7 +10,7 @@ body {
     align-items: center;
     color: rgb(255, 255, 255);
     margin: 1px auto;
-    padding: 10 20px;
+    padding: 20 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 10PX;
@@ -28,7 +28,7 @@ body {
 /* Ajuste del margen del h1 del logo*/
 h1  {
     margin: 0; /* Elimina el margen superior e inferior */
-    padding: 0; /* Opcional: elimina el padding si hay */
+    padding: 10px; /* Opcional: elimina el padding si hay */
     color:white
     
 }
@@ -489,8 +489,7 @@ body {
 @media (max-width: 767px) {
     #fondodeheader {
         flex-direction: column;
-        align-items: center;
-        padding: 10px 20px;
+        align-items: center;      
     }
     
     h1 {
