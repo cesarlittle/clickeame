@@ -8,13 +8,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-color: rgb(32, 32, 32);*/
     color: rgb(255, 255, 255);
     margin: 1px auto;
-    padding: 0 20px;
+    padding: 10 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-radius: 10PX;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    display: flex;
+}
+#fondodeheader.scrolled {
+    background-color: rgb(34, 65, 102);
+    border-radius: 0px;
 }
 /* Ajuste del margen del h1 del logo*/
 h1  {
@@ -50,7 +59,7 @@ nav ul li:last-child {
 
 /* Estilo de enlaces normales */
 a {
-    color: rgb(200, 200, 200);
+    color: rgb(15, 15, 15);
     position: relative;
     text-decoration: none;
     font-size: 15px; /* Tamaño del texto del enlace */
@@ -166,7 +175,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
     padding: 25px;
 }
 
@@ -382,7 +391,9 @@ margin-top: 40px;
     margin-top: 40px;
     transition: box-shadow 0.3s ease-in-out; /* Transición suave */
 }
-
+.mail{
+    margin-top: 10px;
+}
 .right:hover {
     box-shadow: 0 8px 30px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3); /* Luz suave al hacer hover */
 }
