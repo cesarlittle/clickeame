@@ -2,39 +2,50 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Clickeame.net - Agencia de Marketing Digital y Desarrollo IT</title>
     <meta name="description" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT. Desarrollo de apps, software, sitios web y estrategias digitales para hacer crecer tu negocio.">
-    <meta name="keywords" content="desarrollo web, desarrollo apps, software empresarial, marketing digital, agencia digital, desarrollo iOS, desarrollo Android">
-    <meta name="author" content="Clickeame.net">
+
+    <!-- SEO -->
     <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
+    <meta name="author" content="Clickeame.net">
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://clickeame.net/">
     <meta property="og:title" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT">
-    <meta property="og:description" content="Transformamos ideas en resultados digitales. Desarrollo de apps, software y estrategias de marketing digital.">
+    <meta property="og:description" content="Transformamos ideas en resultados digitales.">
     <meta property="og:image" content="https://clickeame.net/og-image.jpg">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://clickeame.net/">
-    <meta property="twitter:title" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT">
-    <meta property="twitter:description" content="Transformamos ideas en resultados digitales. Desarrollo de apps, software y estrategias de marketing digital.">
-    <meta property="twitter:image" content="https://clickeame.net/og-image.jpg">
-    
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    
-    <title>Clickeame.net - Agencia de Marketing Digital y Desarrollo IT</title>
-    
-    <!-- Preconnect to Google Fonts for faster loading -->
+
+    <!-- Preconnect Fonts (CORRECTO para Lighthouse) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
-    
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts async -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+          rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+    </noscript>
+
+    <!-- CSS no bloqueante -->
+    <link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+    <!-- CSS crítico mínimo -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'DM Sans', system-ui, sans-serif;
+            background: #0F0F1E;
+            color: #F8F9FA;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -73,21 +84,21 @@
                     <div class="stat-item">
                         <div class="stat-icon">🚀</div>
                         <div class="stat-content">
-                            <h3>+150</h3>
+                            <p class="stat-number">+150</p>
                             <p>Proyectos Exitosos</p>
                         </div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-icon">⭐</div>
                         <div class="stat-content">
-                            <h3>98%</h3>
+                            <p class="stat-number">98%</p>
                             <p>Clientes Satisfechos</p>
                         </div>
                     </div>
                     <div class="stat-item" style="margin-bottom: 0;">
                         <div class="stat-icon">💎</div>
                         <div class="stat-content">
-                            <h3>10 Años</h3>
+                            <p class="stat-number">10 Años</p>
                             <p>De Experiencia</p>
                         </div>
                     </div>
