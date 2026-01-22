@@ -1,519 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Clickeame.net - Agencia de Marketing Digital y Desarrollo IT</title>
-    <meta name="description" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT. Desarrollo de apps, software, sitios web y estrategias digitales para hacer crecer tu negocio.">
+  <title>Clickeame.net - Agencia de Marketing Digital y Desarrollo IT</title>
+  <meta name="description" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT. Desarrollo de apps, software, sitios web y estrategias digitales para hacer crecer tu negocio.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Clickeame.net">
 
-    <!-- SEO -->
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Clickeame.net">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://clickeame.net/">
+  <meta property="og:title" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT">
+  <meta property="og:description" content="Transformamos ideas en resultados digitales.">
+  <meta property="og:image" content="https://clickeame.net/og-image.jpg">
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://clickeame.net/">
-    <meta property="og:title" content="Clickeame.net - Agencia de Marketing Digital y Desarrollo IT">
-    <meta property="og:description" content="Transformamos ideas en resultados digitales.">
-    <meta property="og:image" content="https://clickeame.net/og-image.jpg">
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Google Fonts (robusto, sin preload problemático) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <!-- Preconnect Fonts (CORRECTO para Lighthouse) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- CSS principal (estable) -->
+  <link rel="stylesheet" href="/styles.css">
 
-    <!-- Fonts async -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
-          rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap">
-    </noscript>
-
-    <link rel="stylesheet" href="/styles.css">
-
-
-
-    <!-- CSS crítico mínimo -->
-    <style>
+  <!-- CSS crítico mínimo -->
+  <style>
     html, body {
-    margin: 0;
-    padding: 0;
+      margin: 0;
+      padding: 0;
     }
     body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #0F0F1E;
-    color: #F8F9FA;
+      font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #0F0F1E;
+      color: #F8F9FA;
+      overflow-x: hidden;
     }
-    nav, section {
-    display: block;
-    }
-</style>
-
+  </style>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <div class="logo">CLICKEAME.NET</div>
-            <ul class="nav-links">
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#proceso">Proceso</a></li>
-                <li><a href="#casos">Casos de Éxito</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-            </ul>
-            <a href="#contacto" class="cta-button">Contactar</a>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">CLICKEAME.NET</div>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#casos">Casos de Éxito</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+      </ul>
+      <a href="#contacto" class="cta-button">Contactar</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-background"></div>
+    <div class="grid-background"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>
+          Transformamos Ideas en
+          <span class="gradient-text">Resultados Digitales</span>
+        </h1>
+
+        <p>
+          Estrategias de marketing digital, desarrollo web y automatización con IA
+          para que tu negocio crezca sin límites.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="https://wa.me/5491127601142" target="_blank" class="btn-primary">
+            Empezar Ahora
+          </a>
+          <a href="#servicios" class="btn-secondary">
+            Ver Servicios
+          </a>
         </div>
-    </nav>
+      </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background"></div>
-        <div class="grid-background"></div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>
-                    Transformamos Ideas en <span class="gradient-text">Resultados Digitales</span>
-                </h1>
-                <p>
-                    Estrategias de marketing digital, desarrollo web y automatización con IA para que tu negocio crezca sin límites. Resultados medibles, crecimiento sostenido.
-                </p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5491127601142" target="_blank" class="btn-primary">Empezar Ahora</a>
-                    <a href="#servicios" class="btn-secondary">Ver Servicios</a>
-                </div>
+      <div class="hero-visual">
+        <div class="floating-card">
+          <div class="stat-item">
+            <div class="stat-icon">🚀</div>
+            <div class="stat-content">
+              <p class="stat-number">+150</p>
+              <p>Proyectos Exitosos</p>
             </div>
-            <div class="hero-visual">
-                <div class="floating-card">
-                    <div class="stat-item">
-                        <div class="stat-icon">🚀</div>
-                        <div class="stat-content">
-                            <p class="stat-number">+150</p>
-                            <p>Proyectos Exitosos</p>
-                        </div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">⭐</div>
-                        <div class="stat-content">
-                            <p class="stat-number">98%</p>
-                            <p>Clientes Satisfechos</p>
-                        </div>
-                    </div>
-                    <div class="stat-item" style="margin-bottom: 0;">
-                        <div class="stat-icon">💎</div>
-                        <div class="stat-content">
-                            <p class="stat-number">10 Años</p>
-                            <p>De Experiencia</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon">⭐</div>
+            <div class="stat-content">
+              <p class="stat-number">98%</p>
+              <p>Clientes Satisfechos</p>
             </div>
+          </div>
+
+          <div class="stat-item" style="margin-bottom:0">
+            <div class="stat-icon">💎</div>
+            <div class="stat-content">
+              <p class="stat-number">10 Años</p>
+              <p>De Experiencia</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Services Section -->
-    <section class="services" id="servicios">
-        <div class="section-header fade-in">
-            <span class="section-label">Nuestros Servicios</span>
-            <h2>Soluciones Digitales Completas</h2>
-            <p>Todo lo que necesitas para llevar tu negocio al siguiente nivel digital</p>
-        </div>
-        <div class="services-grid">
-            <div class="service-card fade-in">
-                <div class="service-icon">🤖</div>
-                <h3>Agentes IA</h3>
-                <p>Automatiza procesos, chat con clientes y respuestas inteligentes para mejorar la eficiencia de tu negocio.</p>
-                <ul class="service-features">
-                    <li>Chatbots personalizados</li>
-                    <li>Automatización de procesos</li>
-                    <li>Respuestas 24/7</li>
-                    <li>Integración con sistemas</li>
-                </ul>
-            </div>
+  <!-- Servicios -->
+  <section class="services" id="servicios">
+    <div class="section-header fade-in">
+      <span class="section-label">Nuestros Servicios</span>
+      <h2>Soluciones Digitales Completas</h2>
+      <p>Todo lo que necesitás para llevar tu negocio al siguiente nivel</p>
+    </div>
 
-            <div class="service-card fade-in">
-                <div class="service-icon">📱</div>
-                <h3>Desarrollo de Apps</h3>
-                <p>Aplicaciones móviles nativas y multiplataforma para iOS y Android con diseño intuitivo y rendimiento excepcional.</p>
-                <ul class="service-features">
-                    <li>Apps iOS y Android</li>
-                    <li>Diseño UX/UI profesional</li>
-                    <li>Integración con APIs</li>
-                    <li>Mantenimiento y soporte</li>
-                </ul>
-            </div>
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-icon">🤖</div>
+        <h3>Agentes IA</h3>
+        <p>Automatizá procesos y atención al cliente con inteligencia artificial.</p>
+      </div>
 
-            <div class="service-card fade-in">
-                <div class="service-icon">⚙️</div>
-                <h3>Desarrollo de Software</h3>
-                <p>Soluciones de software a medida para optimizar procesos, gestión empresarial y sistemas personalizados según tus necesidades.</p>
-                <ul class="service-features">
-                    <li>Software empresarial</li>
-                    <li>Sistemas de gestión</li>
-                    <li>Integración de sistemas</li>
-                    <li>Escalabilidad garantizada</li>
-                </ul>
-            </div>
+      <div class="service-card fade-in">
+        <div class="service-icon">📱</div>
+        <h3>Desarrollo de Apps</h3>
+        <p>Aplicaciones móviles iOS y Android con alto rendimiento.</p>
+      </div>
 
-            <div class="service-card fade-in">
-                <div class="service-icon">🌐</div>
-                <h3>Gestión de Redes</h3>
-                <p>Contenido estratégico, diseño profesional y publicaciones que generan interacción real y crecimiento constante.</p>
-                <ul class="service-features">
-                    <li>Estrategia de contenido</li>
-                    <li>Diseño profesional</li>
-                    <li>Community management</li>
-                    <li>Análisis y reportes</li>
-                </ul>
-            </div>
+      <div class="service-card fade-in">
+        <div class="service-icon">💻</div>
+        <h3>Desarrollo Web</h3>
+        <p>Sitios rápidos, modernos y optimizados para convertir.</p>
+      </div>
+    </div>
+  </section>
 
-            <div class="service-card fade-in">
-                <div class="service-icon">💻</div>
-                <h3>Desarrollo Web</h3>
-                <p>Sitios web modernos, rápidos y optimizados para convertir visitantes en clientes. Imagen profesional y funcionalidad impecable.</p>
-                <ul class="service-features">
-                    <li>Diseño responsive</li>
-                    <li>Optimización SEO</li>
-                    <li>E-commerce completo</li>
-                    <li>Hosting y dominio</li>
-                </ul>
-            </div>
+  <!-- CTA -->
+  <section class="cta-section" id="contacto">
+    <div class="hero-background"></div>
+    <div class="cta-content fade-in">
+      <h2>¿Listo para hacer crecer tu negocio?</h2>
+      <p>Automatizamos, escalamos y optimizamos para resultados reales.</p>
+      <a href="https://wa.me/5491127601142" target="_blank" class="btn-primary">
+        Contactar Ahora
+      </a>
+    </div>
+  </section>
 
-            <div class="service-card fade-in">
-                <div class="service-icon">📊</div>
-                <h3>Marketing Digital</h3>
-                <p>Estrategias completas: publicidad Ads, segmentación, automatizaciones y embudos de venta para escalar resultados.</p>
-                <ul class="service-features">
-                    <li>Google & Facebook Ads</li>
-                    <li>Email marketing</li>
-                    <li>Funnels de conversión</li>
-                    <li>ROI garantizado</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Success Cases Section -->
-    <section class="success-cases" id="casos">
-        <div class="section-header fade-in">
-            <span class="section-label">Casos de Éxito</span>
-            <h2>Empresas Que Confiaron en Nosotros</h2>
-            <p>Proyectos reales con resultados medibles y crecimiento comprobado</p>
-        </div>
-        <div class="cases-grid">
-            <!-- Eurovips -->
-            <div class="case-card fade-in">
-              <!--   <div class="case-logo">
-                    <img src="images/eurovips.png" alt="Eurovips Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Eurovips</h3>
-                    <p class="case-category">Turismo • Mayorista</p>
-                    <p class="case-description">Desarrollo de sitio web completo y aplicación móvil para operador mayorista de turismo. contrucción en desarrollo de sistema de reservas en tiempo real, integración con múltiples proveedores y plataforma de gestión para agencias.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web + App</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">+300</span>
-                            <span class="result-label">Agencias Activas</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ViajoPlus -->
-            <div class="case-card fade-in">
-             <!--    <div class="case-logo">
-                    <img src="images/logos/viajoplus-logo.png" alt="ViajoPlus Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>ViajoPlus</h3>
-                    <p class="case-category">Agencia de Viajes • CABA</p>
-                    <p class="case-description">Sitio web y app móvil con sistema de respuesta automática, catálogo de paquetes turísticos en tiempo real y gestión completa de reservas para agencia en Microcentro CABA.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web + App</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">+220%</span>
-                            <span class="result-label">Ventas Online</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Junior Caldera -->
-            <div class="case-card fade-in">
-                <!-- <div class="case-logo">
-                    <img src="images/logos/juniorcaldera-logo.png" alt="Junior Caldera Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Junior Caldera</h3>
-                    <p class="case-category">Música • Artista Internacional</p>
-                    <p class="case-description">Sitio web oficial del artista con lanzamiento integrado de todas las plataformas musicales, galería multimedia y comunidad exclusiva de fans.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">50K+</span>
-                            <span class="result-label">Usuarios Activos</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Zingales Records -->
-            <div class="case-card fade-in">
-              <!--   <div class="case-logo">
-                    <img src="images/logos/zingales-logo.png" alt="Zingales Records Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Zingales Records</h3>
-                    <p class="case-category">Disquera • Miami</p>
-                    <p class="case-description">Plataforma web para sello discográfico con catálogo digital completo, gestión de artistas, promoción de lanzamientos y analytics de reproducción.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">15+</span>
-                            <span class="result-label">Artistas</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Fantastic Travel -->
-            <div class="case-card fade-in">
-              <!--   <div class="case-logo">
-                    <img src="images/logos/fantastictravel-logo.png" alt="Fantastic Travel Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Fantastic Travel</h3>
-                    <p class="case-category">Agencia de Viajes</p>
-                    <p class="case-description">Diseño y desarrollo de sitio web con experiencias de viaje personalizadas, armado de paquetes turísticos y gestión completa de reservas nacionales e internacionales.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">+240%</span>
-                            <span class="result-label">Reservas</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Frenos Los Norteños -->
-            <div class="case-card fade-in">
-                <!-- <div class="case-logo">
-                    <img src="images/logos/frenosnortenos-logo.png" alt="Frenos Los Norteños Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Frenos Los Norteños</h3>
-                    <p class="case-category">Automotriz • Servicios</p>
-                    <p class="case-description">Sitio web profesional para taller mecánico especializado en frenos, con un sitio informativo y detalles de los servicios prestados, nosotros contacto, etc.. Lo clásico de un sitio informativo.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">+180%</span>
-                            <span class="result-label">Turnos Online</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mandala Music -->
-            <div class="case-card fade-in">
-                <!-- <div class="case-logo">
-                    <img src="images/logos/mandalamusic-logo.png" alt="Mandala Music Logo" class="client-logo">
-                </div> -->
-                <div class="case-content">
-                    <h3>Mandala Music</h3>
-                    <p class="case-category">Educación • Música</p>
-                    <p class="case-description">Plataforma educativa web y app móvil en proceso de desarrollo para escuela de música con sistema de inscripciones online, gestión de horarios y aulas, contenido multimedia interactivo, área privada para estudiantes y seguimiento de progreso académico.</p>
-                    <div class="case-results">
-                        <div class="result-item">
-                            <span class="result-number">Web + App</span>
-                            <span class="result-label">Plataformas</span>
-                        </div>
-                        <div class="result-item">
-                            <span class="result-number">+50</span>
-                            <span class="result-label">Alumnos</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process" id="proceso">
-        <div class="section-header fade-in">
-            <span class="section-label">Nuestro Proceso</span>
-            <h2>Cómo Trabajamos</h2>
-            <p>Metodología comprobada para garantizar resultados excepcionales</p>
-        </div>
-        <div class="process-timeline">
-            <div class="process-step fade-in">
-                <div class="step-number">1</div>
-                <div class="step-content">
-                    <h3>Análisis y Estrategia</h3>
-                    <p>Estudiamos tu negocio, competencia y audiencia para crear una estrategia personalizada que garantice resultados medibles desde el inicio.</p>
-                </div>
-            </div>
-
-            <div class="process-step fade-in">
-                <div class="step-number">2</div>
-                <div class="step-content">
-                    <h3>Diseño y Desarrollo</h3>
-                    <p>Creamos soluciones digitales con diseño profesional, tecnología de punta y optimización para conversiones máximas.</p>
-                </div>
-            </div>
-
-            <div class="process-step fade-in">
-                <div class="step-number">3</div>
-                <div class="step-content">
-                    <h3>Lanzamiento y Optimización</h3>
-                    <p>Implementamos, monitoreamos y optimizamos constantemente para asegurar el máximo rendimiento y crecimiento sostenido.</p>
-                </div>
-            </div>
-
-            <div class="process-step fade-in">
-                <div class="step-number">4</div>
-                <div class="step-content">
-                    <h3>Soporte Continuo</h3>
-                    <p>Mantenemos comunicación constante, brindamos soporte técnico y actualizaciones para que tu negocio siga creciendo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials" id="testimonios">
-        <div class="section-header fade-in">
-            <span class="section-label">Testimonios</span>
-            <h2>Lo Que Dicen Nuestros Clientes</h2>
-            <p>Experiencias reales de empresas que confiaron en nosotros</p>
-        </div>
-        <div class="testimonials-grid">
-            <div class="testimonial-card fade-in">
-                <div class="stars">★★★★★</div>
-                <p class="testimonial-text">
-                    "El equipo de Clickeame.net transformó completamente nuestra presencia digital. Desarrollaron un sitio web profesional que realmente convierte y nos ayudaron a automatizar procesos clave de nuestro negocio."
-                </p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">EV</div>
-                    <div class="author-info">
-                        <h4>Equipo Eurovips</h4>
-                        <p>Operador Mayorista de Turismo</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-card fade-in">
-                <div class="stars">★★★★★</div>
-                <p class="testimonial-text">
-                    "Trabajar con Clickeame fue fundamental para el lanzamiento de mi carrera digital. Crearon una plataforma que conecta perfectamente con mis fans y facilita la venta de tickets para mis shows."
-                </p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">JC</div>
-                    <div class="author-info">
-                        <h4>Junior Caldera</h4>
-                        <p>Artista Musical</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-card fade-in">
-                <div class="stars">★★★★★</div>
-                <p class="testimonial-text">
-                    "El sistema de gestión que nos desarrollaron mejoró significativamente nuestra operación diaria. Ahora nuestros clientes pueden reservar turnos online y nosotros optimizamos mejor nuestro tiempo."
-                </p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">FN</div>
-                    <div class="author-info">
-                        <h4>Frenos Los Norteños</h4>
-                        <p>Taller Mecánico</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section" id="contacto">
-        <div class="hero-background"></div>
-        <div class="cta-content fade-in">
-            <h2>¿Listo Para Hacer Crecer Tu Negocio?</h2>
-            <p>No prometemos humo. Creamos estrategias que generan impacto medible: más clientes, más conversiones y un crecimiento sostenido.</p>
-            <a href="https://wa.me/5491127601142" target="_blank" class="btn-primary">Contactar Ahora</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
+  <!-- Footer -->
+  <footer>
     <div class="footer-content">
-        <div class="footer-brand">
-            <p class="footer-title">CLICKEAME.NET</p>
-            <p>Agencia de Marketing Digital y Desarrollo IT especializada en soluciones completas para el crecimiento de tu negocio.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/company/clickeamepuntonet/" target="_blank" class="social-link">📘</a>
-                <a href="https://www.instagram.com/clickeamenet" target="_blank" class="social-link">📷</a>
-                <a href="mailto:info@clickeame.net" class="social-link">✉️</a>
-            </div>
-        </div>
-
-        <div class="footer-links">
-            <h4>Servicios</h4>
-            <ul>
-                <li><a href="#servicios">Agentes IA</a></li>
-                <li><a href="#servicios">Desarrollo de Apps</a></li>
-                <li><a href="#servicios">Desarrollo de Software</a></li>
-                <li><a href="#servicios">Gestión de Redes</a></li>
-                <li><a href="#servicios">Desarrollo Web</a></li>
-                <li><a href="#servicios">Marketing Digital</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-links">
-            <h4>Empresa</h4>
-            <ul>
-                <li><a href="#proceso">Proceso</a></li>
-                <li><a href="#casos">Casos de Éxito</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-links">
-            <h4>Contacto</h4>
-            <ul>
-                <li><a href="mailto:info@clickeame.net">info@clickeame.net</a></li>
-                <li><a href="https://wa.me/5491127601142" target="_blank">WhatsApp</a></li>
-            </ul>
-        </div>
+      <div class="footer-brand">
+        <p class="footer-title">CLICKEAME.NET</p>
+        <p>Growth & Automation Partner</p>
+      </div>
     </div>
 
     <div class="footer-bottom">
-        © 2026 Clickeame.net — Todos los derechos reservados
+      © 2026 Clickeame.net — Todos los derechos reservados
     </div>
-</footer>
+  </footer>
 
+  <script src="/script.js" defer></script>
 
-    <script src="script.js" defer></script>
 </body>
 </html>
