@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs>
+    <linearGradient id="ftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FEC33A"/>
+      <stop offset="100%" style="stop-color:#F5B700"/>
+    </linearGradient>
+  </defs>
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#ftGrad)" text-anchor="middle">FANTASTIC</text>
+  <text x="100" y="60" font-family="Arial, sans-serif" font-size="18" fill="#F8DC6F" text-anchor="middle" letter-spacing="4">TRAVEL</text>
+  <path d="M15 45 Q30 20 45 45" fill="none" stroke="#F5B700" stroke-width="2"/>
+  <circle cx="30" cy="30" r="5" fill="#FEC33A"/>
+</svg>
